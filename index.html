@@ -35,8 +35,10 @@
 					<ol>
 						<li class="fragment">Personal introduction</li>
 						<li class="fragment">Summary HTML and CSS</li>
-						<li class="fragment">Overview CSS Grid and Flexbox</li>
-						<li class="fragment">Exercises</li>
+						<li class="fragment">What are Grid and Flexbox?</li>
+						<li class="fragment">CSS Grid</li>
+						<li class="fragment">CSS Flexbox</li>
+						<li class="fragment">Last excercise and wrap up</li>
 					</ol>
 				</section>
 
@@ -88,23 +90,17 @@
 							CSS: Cascading Stylesheets, <i class="fragment highlight-green">to style and layout html</i> 
 						</li>
 						<li class="fragment">
-							CSS selectors type, class and id
+							CSS selectors type, class but never with id
 							<ul>
-								<li class="fragment"><pre><code><h1></h1></code></pre></li>
+								<li class="fragment"><pre><code><p></p></code></pre></li>
 								<li class="fragment"><pre><code data-trim>
-									h1 {
-									color: blue;
+									p {
+									background: blue;
 									}
 								</code></pre></li>
 								<li class="fragment"><pre><code><p class="class-selector"></p></code></pre></li>
 								<li class="fragment"><pre><code data-trim>
-									.class-selektor {
-									background: green;
-									}
-								</code></pre></li>
-								<li class="fragment"><pre><code><p id="id-selector"></p></code></pre></li>
-								<li class="fragment"><pre><code data-trim>
-									#id-selektor {
+									.class-selector {
 									background: green;
 									}
 								</code></pre></li>
@@ -144,12 +140,12 @@
 					<h3>Start with the why...</h3>
 					<h6 class="fragment"><em>Why should you even learn CSS Grid and Flexbox?</em></h6>
 					<ul>
+						<li class="fragment">Powerful and easy tools</li>
 						<li class="fragment">Content of any webpage needs layout</li>
 						<li class="fragment">Responsivness</li>
-						<li class="fragment">Powerful and easy tools</li>
 					</ul>
 				</section>
-
+<!--
 				<section>
 					<h3>But what are they?</h3>
 					<h6 class="fragment">CSS grid</h6>
@@ -159,15 +155,15 @@
 					<span class="fragment">The Flex Box module aims at providing a more efficient way to <em class="fragment highlight-green">lay out, align and distribute space among items in a container</em>[...].</span>
 					<p class="fragment"><em>Click <a target="_blank" href="https://medium.com/@shuvohabib/learn-css-grid-and-flexbox-fundamentals-before-2019-hits-the-ground-765010c6e21f">here</a> to get to the source.</em></p>
 				</section>
-
+-->
 				<section>
 					<h3>Main difference</h3>
 					<p class="fragment">
-						The main difference between <strong class="fragment highlight-blue">CSS Grid Layout</strong> and <strong class="fragment highlight-green">CSS Flexbox Layout</strong> is that flexbox was designed for <strong class="fragment highlight-green">layout in one dimension either a row or a column</strong>, on the other hand, <strong class="fragment highlight-blue">Grid was designed for two-dimensional layout rows, and columns at the same time</strong>.
+						"The main difference between <strong class="fragment highlight-blue">CSS Grid Layout</strong> and <strong class="fragment highlight-green">CSS Flexbox Layout</strong> is that flexbox was designed for <strong class="fragment highlight-green">layout in one dimension either a row or a column</strong>, on the other hand, <strong class="fragment highlight-blue">Grid was designed for two-dimensional layout rows, and columns at the same time</strong>.
 					</p>
-					<p class="fragment"><strong class="fragment highlight-green">Flexbox layout is most appropriate to the components of an application, and small-scale layouts</strong>,<strong class="fragment highlight-blue"> while the Grid layout is intended for larger scale layouts</strong>.
+					<p class="fragment"><strong class="fragment highlight-green">Flexbox layout is most appropriate to the components of an application, and small-scale layouts</strong>,<strong class="fragment highlight-blue"> while the Grid layout is intended for larger scale layouts</strong>."
 					</p>
-					<p class="fragment"><em>Click <a target="_blank" href="https://medium.com/@shuvohabib/learn-css-grid-and-flexbox-fundamentals-before-2019-hits-the-ground-765010c6e21f">here</a> to get to the source.</em></p>
+					<p class="fragment"><em>Source: </em><a target="_blank" href="https://medium.com/@shuvohabib/learn-css-grid-and-flexbox-fundamentals-before-2019-hits-the-ground-765010c6e21f">Learn CSS Grid and Flexbox fundamentals before 2019 ends!</a> by Shuvo Habib</p>
 				</section>
 
 				<section>
@@ -190,7 +186,7 @@
  								font-size: 35px;
 							</code></pre>
 						</li>
-						<li class="fragment">emmet: div.item.item${$}*10</li>
+						<li class="fragment">emmet: div.item.item${$}*30</li>
 					</ol>
 				</section>
 
@@ -213,6 +209,10 @@
 					</p>
 					<ul>
 					<li class="fragment">For excercise pen click <a target="_blank" href="https://codepen.io/neuefische/pen/WNvEWpo?editors=0100">here</a>!</li>
+					<li class="fragment">
+						A complete guide to CSS grid by css-tricks (really helpful!):
+						<a target="_blank" href="https://css-tricks.com/snippets/css/complete-guide-grid/">css-tricks.com</a>
+					</li>
 					<li class="fragment">For result pen click <a target="_blank" href="https://codepen.io/neuefische/pen/WNvEWjo?editors=0100">here</a>!</li>	 
 					</ul>
 					<p class="fragment">
@@ -235,10 +235,6 @@
 						<li class="fragment">
 							Useful grid examples:
 							<a target="_blank" href="https://gridbyexample.com/">gridbyexample.com</a>
-						</li>
-						<li class="fragment">
-							A complete guid to CSS grid by css-tricks (really helpful!):
-							<a target="_blank" href="https://css-tricks.com/snippets/css/complete-guide-grid/">css-tricks.com</a>
 						</li>
 						<li class="fragment">
 							Useful videos by scrimba:
@@ -296,7 +292,7 @@
 							<a target="_blank" href="https://flexbox.io/">flexbox.io</a>
 						</li>
 						<li class="fragment">
-							A complete guid to flexbox by css-tricks (really helpful!):
+							A complete guide to flexbox by css-tricks (really helpful!):
 							<a target="_blank" href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">css-tricks.com</a>
 						</li>
 					</ul>
@@ -307,9 +303,19 @@
 					<p class="fragment">Solving Problems With CSS Grid and Flexbox: The Card UI</p>
 					<ul>
 						<li class="fragment">For excercise pen click <a target="_blank" href="https://codepen.io/neuefische/pen/abOLwVJ?editors=0100">here</a>!</li>
-						<li class="fragment">For result pen click <a target="_blank" href="https://codepen.io/neuefische/pen/KKpXqWO?editors=1100">here</a>!</li>
+						<li class="fragment">
+							<img src="./assets/last_exercise_tutorial.png" alt="">
+						</li>
 					</ul>
-					<p class="fragment"><em>All credit goes to Ian Yates by Envato Tuts+. Click <a target="_blank" href="https://webdesign.tutsplus.com/tutorials/solving-problems-with-css-grid-and-flexbox-the-card-ui--cms-27468">here</a> to get to the whole tutorial.</em></p>
+				</section>
+
+				<section>
+					<h3>Last exercise!</h3>
+					<p class="fragment">Solving Problems With CSS Grid and Flexbox: The Card UI</p>
+					<ul>
+						<li class="fragment fade-in">For result pen click <a target="_blank" href="https://codepen.io/neuefische/pen/KKpXqWO?editors=1100">here</a>!</li>
+					</ul>
+					<p class="fragment fade-in"><em>All credit goes to Ian Yates by Envato Tuts+. Click <a target="_blank" href="https://webdesign.tutsplus.com/tutorials/solving-problems-with-css-grid-and-flexbox-the-card-ui--cms-27468">here</a> to get to the whole tutorial.</em></p>
 				</section>
 
 				<section>
